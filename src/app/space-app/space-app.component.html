@@ -1,0 +1,54 @@
+<div class="container">
+    <h2>SpaceX Launch Programs</h2>
+<div class="row">
+    <div class="col-4">
+      <h4>Filters</h4>
+      <mat-form-field>
+        <mat-label>Launch Year</mat-label>
+         <input type="text" matInput>
+    </mat-form-field>
+    <br>
+    <button mat-raised-button color="primary">2006</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button mat-raised-button color="primary">2007</button>
+<br><br>
+<button mat-raised-button color="primary">2008</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-raised-button color="primary">2009</button>
+<br><br>
+<button mat-raised-button color="primary">2010</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-raised-button color="primary">2011</button>
+<br><br>
+<button mat-raised-button color="primary">2012</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-raised-button color="primary">2013</button>
+<br><br>
+<button mat-raised-button color="primary">2014</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-raised-button color="primary">2015</button>
+<br><br>
+<button mat-raised-button color="primary">2016</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-raised-button color="primary">2017</button>
+<br><br>
+<button mat-raised-button color="primary">2018</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-raised-button color="primary">2019</button>
+<br><br>
+<button mat-raised-button color="primary">2020</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<br><br>
+<mat-form-field>
+    <mat-label>Successful Launch</mat-label>
+     <input type="text" matInput>
+</mat-form-field>
+<br><br>
+<button mat-raised-button color="primary">True</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-raised-button color="primary">False</button>
+<br><br>
+<mat-form-field>
+    <mat-label>Successful Landing</mat-label>
+     <input type="text" matInput>
+</mat-form-field>
+<br><br>
+<button mat-raised-button color="primary">True</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button mat-raised-button color="primary">False</button>
+    </div>
+    <div class="col-8">
+
+    <app-spacealldata [spaceapi]="spaceapi"></app-spacealldata>
+    </div>
+</div>
