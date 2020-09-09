@@ -1,0 +1,18 @@
+
+
+<div class="row">
+    <div class="col" *ngFor="let data of spaceapi" >
+<div class="card">
+    
+    <img [src]="data.links.mission_patch" class="card-img-top" style="width:170px; height:110px;"><br>
+    <div class="card-body">
+       
+                 
+                <span  style="color:blue">{{data.mission_name}}  #{{data.flight_number}}</span><br>
+                <span>Launch Year : </span><span style="color:blue" >{{data.launch_year}}</span><br>
+               <span>Successful Launch : </span> <span >{{data.launch_success}}</span>
+            </div>
+       
+        </div>
+</div>
+</div>
